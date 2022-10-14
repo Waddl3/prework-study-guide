@@ -1,145 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Prework Study Guide</title>
-  </head>
-  <body>
-    <header id="top">
-      <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
-      <h2>✨ Open the Console to See What's Happening ✨</h2>
-    </header>
-    <main>
-      <section class="card" id="html-section">
-        <h2>HTML</h2>
-        <ul>
-          <li>Enter your HTML notes here</li>
-          <li>The head elemnt contains information about the webpage.</li>
-            <li>The body element represents the visible content shwon to the user.</li>
-            <li> ul is unordered lists, while li is list items.</li>
-            <li> The  'p' is paragrph and goes within the body section.</li>
-            <li> There are different header sizes: h1 - h6, biggest to smallest. </li>
-          </ul>
-      </section>
 
-      <section class="card" id="css-section">
-        <h2>CSS</h2>
-        <ul>
-          <li>There are three ways to style a webpage: 
-            inline CSS, internal CSS 
-            style sheet, 
-            & external CSS style sheet</li>
-            <li>internal style sheet - CSS rules for the webpage in the head section of the HTML file.</li>
-            <li>external style sheet - It is preferred in most cases. Allowing developer to keep all their CSS rules in a seprate file, 
-              making the design changes much easier.</li>
-              <li>link - in order to link something, you must put a * following { to open. <br>
-              Place the link in between the 'head' element and then below the last 'meta' and above the 'title' element.</li>
-            <li>Declaration contain two important components: propety 'color' and the value 'blue'.</li>
-            <li>margin - property indicates how much space we want around the <strong><i>OUTSIDE</i></strong> of an element.</li>
-            <li>padding - odten confused with margin, adds space around the content <strong><i>INSIDE</i></strong> an element.</li>
-            <li>star (*) - is what we want to apply a rule to all the elements vidible on the page. Casuing <strong><i>ALL</i></strong> of the elements on the page
-            to have the style properties 'margin' and 'padding' set as 0.</li>
-            <li>DRY - <strong><i>Do Not Repeat Yourself.</i></strong></li>
-            <li>'h1' ,'h2' rule assignment is a positioning property 'text-align'.<br>
-              *helps with centering a title or heading on a webpage.</li>
-            <li>'img' selector assigns property values to any image element in the markup. 'display' property assigned with the 'block' value. each image to start on a new line.
-            </li>
-            <li>'ul' elements declares the font to be 20px and padding on th eleft of the unordered list to be 40px.</li>
-            <li>'link' - creates the connection to external file. <br>
-              In order to link the style.css, you want to use the 'link...'' in between the 'head' and above the 'title' and below the last 'meta'.</li>
-            <li>'rel' - specifies the location (URL) of the external resource.</li>
-            <li>'href' - using a relative path; the location is derived from the current location (in this case, index.html).</li>
-            <li>to locate the style sheet from the current location, must look in the assets folder, hence assets/style.css.</li>
-            <li>Any additional notes can found in the bootcamp folder or notepad.</li>
-        </ul>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Prework Study Guide</title>
+</head>
 
-      <section class="card" id="git-section">
-        <h2>Git</h2>
-        <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-          <li>git add [file]: add a file as it looks now to your next commit (stage)</li>
-          <li>git reset [file]: unstage a file while retaining the changes in working directory</li>
-          <li>git diff --staged: diff of what is taged but not yet committed</li>
-          <li>git commit -m "[descriptive message]": commit your staged content as a new commit snapshot</li>
-          <li>git branch: list your branches. a* will appear next to the currently active branch</li>
-          <li>git branch [branch-name]: create a new branch at the current commit</li>
-          <li>git checkout: switch to another branch and check it out into your working directory</li>
-          <li>git merge [branch]: merge the specified branch's history into the current one</li>
-          <li>git log: show all commits in the current branch's history</li>
-        </ul>
-      </section>
+<body>
+  <header id="top">
+    <h1>Prework Study Guide</h1>
+    <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+    <h2>✨ Open the Console to See What's Happening ✨</h2>
+  </header>
+  <main>
+    <section class="card" id="html-section">
+      <h2>HTML</h2>
+      <ul>JokJoker
+        <li>The head elemnt contains information about the webpage.</li>
+        <li>The body element represents the visible content shwon to the user.</li>
+        <li> ul is unordered lists, while li is list items.</li>
+        <li> The 'p' is paragrph and goes within the body section.</li>
+        <li> There are different header sizes: h1 - h6, biggest to smallest. </li>
+      </ul>
+    </section>
 
-      <section class="card" id="javascript-section">
-        <h2>JavaScript</h2>
-        <ul>
-          <li>A variable is a named container that allows us to store data in our code.</li><br>
-          <li>Control flow is the order in which a computer executes code in a script.</li><br>
-          <li>var [variable name] - This will cause it to be a unique reference that will be used later. 
-            We then us the ' = ' to assign the specific data that we want to store in our variable. 
-            After the ' = ', we enter a container named. <br> var [variable name] = [container name]
-            </li><br>
-            <li>console.log - is a method to the file. We can use the 'console.log' method to output a message to the web console by adding an argument.<br>
-            	the word 'console' refers to a test environment that developers use to check out their code. </li> <br>
-            <li>	The second part, ' .log() ' is a method. Meaning a set of instructions that can be executed by a computer. It will output whatever we add inside the parentheses to the console.</li>
-            <br>
-            <li>We now link it:<br>
+    <section class="card" id="css-section">
+      <h2>CSS</h2>
+      <ul>
+        <li>There are three ways to style a webpage:
+          inline CSS, internal CSS
+          style sheet,
+          & external CSS style sheet</li>
+        <li>internal style sheet - CSS rules for the webpage in the head section of the HTML file.</li>
+        <li>external style sheet - It is preferred in most cases. Allowing developer to keep all their CSS rules in a
+          seprate file,
+          making the design changes much easier.</li>
+        <li>link - in order to link something, you must put a * following { to open. <br>
+          Place the link in between the 'head' element and then below the last 'meta' and above the 'title' element.
+        </li>
+        <li>Declaration contain two important components: propety 'color' and the value 'blue'.</li>
+        <li>margin - property indicates how much space we want around the <strong><i>OUTSIDE</i></strong> of an element.
+        </li>
+        <li>padding - odten confused with margin, adds space around the content <strong><i>INSIDE</i></strong> an
+          element.</li>
+        <li>star (*) - is what we want to apply a rule to all the elements vidible on the page. Casuing
+          <strong><i>ALL</i></strong> of the elements on the page
+          to have the style properties 'margin' and 'padding' set as 0.</li>
+        <li>DRY - <strong><i>Do Not Repeat Yourself.</i></strong></li>
+        <li>'h1' ,'h2' rule assignment is a positioning property 'text-align'.<br>
+          *helps with centering a title or heading on a webpage.</li>
+        <li>'img' selector assigns property values to any image element in the markup. 'display' property assigned with
+          the 'block' value. each image to start on a new line.
+        </li>
+        <li>'ul' elements declares the font to be 20px and padding on th eleft of the unordered list to be 40px.</li>
+        <li>'link' - creates the connection to external file. <br>
+          In order to link the style.css, you want to use the 'link...'' in between the 'head' and above the 'title' and
+          below the last 'meta'.</li>
+        <li>'rel' - specifies the location (URL) of the external resource.</li>
+        <li>'href' - using a relative path; the location is derived from the current location (in this case,
+          index.html).</li>
+        <li>to locate the style sheet from the current location, must look in the assets folder, hence assets/style.css.
+        </li>
+        <li>Any additional notes can found in the bootcamp folder or notepad.</li>
+      </ul>
+    </section>
 
-              We add the ' link' inside of the ' head ' element. Which contains metadata or meta information for the browser. 
-            <br>
-            **Add the javascript under the ' footer ' section just under the closing footer and above the closing body. **
-            </li><br>
-            <li>array - a signle variable that is used to hold a group of data. Arrays are typically used to hold data that is related in some way.
-            <br><br>
-            var shape = "circle"; //this holds only one <br>
-            var shapes = ["triangle, "square", "pentagon", "circle"]; // this represents a group. </li>
-            <br>
-            <li>String - in order to make strings, it needs to be contained within quotation marks.<br>
-              Example:<br>
-              <br>
-              var studentInfo = "Lu";<br>
-            Since the name is Lu, we put " " quotations to mark it as a string.<br>
-            <br>
-            &<br>
-            <br>
-            If we had:<br>
-              var studentInfo = ["Lu", 54, true];<br>
-            We do not put quotations on 54 since it is a number and true because it is a boolean value.<br>
-            <br>
-            <strong><em>IMPORTANT:</em></strong><br>
-              <strong> Arrays are useful tools for storing multiple items with differnt data types in a single variable, but not all arrays must have multiple data types. The array that we will add to our project only contains strings.</strong>
-             </li>
-            <li>array index - to work with individual data items inside an array, we need to have one more piece of informations:<br>
-              The location of the data item in the array. Which is identified with a unique number called an <strong><em>INDEX.</em></strong><br><br>
-            
-            We can access individual data inside the array using each piece of data index, or location number.
-            </li>
-          <li>zero-index - JS goes by 0, 1, 2, 3...<br><br>
+    <section class="card" id="git-section">
+      <h2>Git</h2>
+      <ul>
+        <li>git status: checks what branch we are currently on</li>
+        <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+        <li>git add [file]: add a file as it looks now to your next commit (stage)</li>
+        <li>git reset [file]: unstage a file while retaining the changes in working directory</li>
+        <li>git diff --staged: diff of what is taged but not yet committed</li>
+        <li>git commit -m "[descriptive message]": commit your staged content as a new commit snapshot</li>
+        <li>git branch: list your branches. a* will appear next to the currently active branch</li>
+        <li>git branch [branch-name]: create a new branch at the current commit</li>
+        <li>git checkout: switch to another branch and check it out into your working directory</li>
+        <li>git merge [branch]: merge the specified branch's history into the current one</li>
+        <li>git log: show all commits in the current branch's history</li>
+      </ul>
+    </section>
 
-            since it is assigned like an index with array: triangle, square, pentagon, circle.<br><br>
-            
-            We can identify each one as: 0, 1, 2, 3... and so on.<br><br>
-            
-            code example: 
-              <em>shapes[0];</em> //this will give us triangle since triangle is first. Now we output the whole thing together.
-            
-            <em>console.log(shapes[0]);</em>
-            
-            this would output "triangle".
-            </li>
-          </ul>
-      </section>
+    <section class="card" id="javascript-section">
+      <h2>JavaScript</h2>
+      <ul>
+        <li>A variable is a named container that allows us to store data in our code.</li>
+        <li>Control flow is the order in which a computer executes code in a script.</li>
+        <li>var [variable name] - This will cause it to be a unique reference that will be used later.
+          We then us the ' = ' to assign the specific data that we want to store in our variable.
+          After the ' = ', we enter a container named: 
+          <p class = "indent">var [variable name] = [container name] </p>
+        </li>
+        <li>console.log - is a method to the file. We can use the 'console.log' method to output a message to the web
+          console by adding an argument.
+          The word 'console' refers to a test environment that developers use to check out their code.
+        </li> 
+        <li> The second part, ' .log() ' is a method. Meaning a set of instructions that can be executed by a computer.
+          It will output whatever we add inside the parentheses to the console.
+        </li>
+        <li>We now link it: 
+          <p class = "indent">
+          We add the ' link' inside of the ' head ' element. Which contains metadata or meta information for the
+          browser.
+          </p>
+          **Add the javascript under the ' footer ' section just under the closing footer and above the closing body. **
+        </li>
+        <li>array - a signle variable that is used to hold a group of data. Arrays are typically used to hold data that
+          is related in some way:
+          <p class = "indent">var shape = "circle"; //this holds only one.
+          <p class = "indent">var shapes = ["triangle, "square", "pentagon", "circle"]; // this represents a group.</p>
+        </li>
+        <li>String - in order to make strings, it needs to be contained within quotation marks.
+          <p class = "indent">Example: var studentInfo = "Lu";
+          <p class = "indent">Since the name is Lu, we put " " quotations to mark it as a string.
+          <p class = "indent">If we had:
+          var studentInfo = ["Lu", 54, true];
+          We do not put quotations on 54 since it is a number and true because it is a boolean value.</p>
+          <strong><em>IMPORTANT:</em></strong>
+          <p class = "indent"><strong> Arrays are useful tools for storing multiple items with differnt data types in a single variable, but
+            not all arrays must have multiple data types. The array that we will add to our project only contains
+            strings.</strong></p>
+        </li>
+        <li>array index - to work with individual data items inside an array, we need to have one more piece of
+          informations:
+          <p class = "indent">The location of the data item in the array. Which is identified with a unique number called an
+          <strong><em>INDEX.</em></strong></p>
 
-    </main>
+          We can access individual data inside the array using each piece of data index, or location number.
+        </li>
+        <li>zero-index - JS goes by 0, 1, 2, 3... since it is assigned like an index with array: triangle, square, pentagon, circle.
+          We can identify each one as: 0, 1, 2, 3... and so on.</p>
+          <p class = "indent">
+          <strong>Code Example:</strong>
+          <em>shapes[0];</em> //this will give us triangle since triangle is first. Now we output the whole thing
+          together.</p>
+          <em>console.log(shapes[0]);</em>
+          this would output "triangle".
+        </li>
+      </ul>
+    </section>
 
-    <footer>
-      <p>I can code!</p>
-    </footer>
-      <script src= "./assets/script.js"></script>  
-      </body>
+  </main>
+
+  <footer>
+    <p>I can code!</p>
+  </footer>
+  <script src="./assets/script.js"></script>
+</body>
+
 </html>
