@@ -16,7 +16,9 @@ N/A
 
 ## License
 
-MIT License
+MIT Licensegit 
+
+![License Badge](https://img.shields.io/badge/License-MIT-blue.svg)
 
 Copyright (c) 2022 Jesus Rodriguez-Luna
 
